@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f8dce8">
+<title>Namkang💗</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app">
+<section class="card">
+<div class="page active" id="page1">
+
+<h1>สวัสดีน้ำค้างคนเก่ง🐶</h1>
+<br>
+<button class="next" onclick="showFinal()">Next ▶️</button>
+</div>
+
+<div class="page" id="page2">
+<h1>คนเก่งของเค้า🐶</h1>
+<div class="photo">
+<img src="assets/photo.jpg" alt="รูปของเรา" onerror="this.style.display='none';document.getElementById('placeholder').style.display='block'">
+<span id="placeholder">ใส่รูปที่ assets/photo.jpg 📷</span>
+</div>
+<p>
+ช่วงนี้งานคงเหนื่อยน่าดูเลยใช่ไหม<br>
+เค้าแค่อยากบอกว่าไม่ต้องห่วงทางนี้นะ<br>
+เค้าดูแลตัวเองได้ แล้วก็จะคอยเป็นกำลังใจให้เธอทุกวัน 💗
+</p>
+<strong>กอดนะคนเก่ง คิดถึงมาก ๆ 🥺💘</strong>
+
+</div>
+</section>
+<div class="dots"><i id="d1" class="on"></i><i id="d2"></i></div>
+</main>
+<audio id="audio" loop><source src="assets/music.mp3" type="audio/mpeg"></audio>
+<script src="script.js"></script>
+</body>
+</html>
